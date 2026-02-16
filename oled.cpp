@@ -41,3 +41,4 @@ void clear() {
   display.clearDisplay();
   display.setCursor(0, 0);
 }
+
