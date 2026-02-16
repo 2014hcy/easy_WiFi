@@ -45,17 +45,6 @@ void printLocalTime() {
   }
 
   char output[50];
-  write(current_tz.display_name);
-
-	if (current_tz.display_name == "USA") {
-    if (timeinfo.tm_isdst > 0) {
-      write(" (Daylight)");
-    } else {
-      write(" (Standard)");
-    }
-  }
-
-  writeln(" time:");
 
   strftime(output, sizeof(output), current_tz.time_format, &timeinfo);
   writeln(output);
@@ -178,3 +167,4 @@ void write_time() {
   printLocalTime();
   delay(1000);
 }
+
