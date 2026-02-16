@@ -1,6 +1,6 @@
 # easy_WiFi - the WiFi lib for the ESP32 beginner
 
-It's can helps the ESP32 beginner to using "WiFi" lib. It's using my ***"myOLED"*** lib.
+It's can helps the __ESP32__ beginner to __using "WiFi"__ lib. It's using my ***"myOLED"*** lib.
 
 ## Install
 
@@ -12,9 +12,9 @@ It's can helps the ESP32 beginner to using "WiFi" lib. It's using my ***"myOLED"
 
 ## Instructions
 
-***"connect()"*** function is for connect your WiFi, ssid is your WiFi name , password is your WiFi password.<br>
-***"init_time()"*** function can init the time zone. It's have 3 country to choose: 1. ZH(China) 2. US(America) 3. UK(United Kingdom).<br>
-***"write_time()"*** function can display time one times on the OLED.
+***"connect()"*** function is for __connect your WiFi__, __ssid__ is your __WiFi name__ , __password__ is your __WiFi password__.<br>
+***"init_time()"*** function can __init the time zone__. It's have __3 country__ to choose: __1. ZH(China) 2. US(America) 3. UK(United Kingdom).__<br>
+***"write_time()"*** function can __display time__ one times on the OLED.
 
 ## At last
 
