@@ -12,7 +12,7 @@ It's can helps the __ESP32__ beginner to __using "WiFi"__ lib. It's using my ***
 
 ## Instructions
 
-***"connect()"*** function is for __connect your WiFi__, __ssid__ is your __WiFi name__ , __password__ is your __WiFi password__.<br>
+***"connect()"*** function is for __connect your WiFi__, __*ssid*__ is your __WiFi name__ , __*password*__ is your __WiFi password__ and __*oled_addr*__ is your __*OLED I2C address*__.<br>
 ***"init_time()"*** function can __init the time zone__. It's have __3 country__ to choose: __1. ZH(China) 2. US(America) 3. UK(United Kingdom).__<br>
 ***"write_time()"*** function can __display time__ one times on the OLED.
 
