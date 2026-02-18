@@ -36,11 +36,11 @@ TimeZoneConfig current_tz;
 
 int counter = 0;
 
-void printLocalTime() {
+void printLocalTime(bool doDisplay) {
   struct tm timeinfo;
   if (!getLocalTime(&timeinfo)) {
     write("Get time failed!");
-    displaying();
+    if (doDisplay) displaying();
     return;
   }
 
@@ -49,7 +49,7 @@ void printLocalTime() {
   strftime(output, sizeof(output), current_tz.time_format, &timeinfo);
   writeln(output);
   
-  displaying();
+  if (doDisplay) displaying();
 }
 
 void led(int pin) {
