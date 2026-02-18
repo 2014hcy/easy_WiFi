@@ -12,5 +12,6 @@ enum Country {
 void connect(const char* ssid, const char* password, uint8_t oled_addr);
 void init_time(Country country);
 void write_time();
+void printLocalTime(bool doDisplay = true);
 
 #endif
