@@ -69,8 +69,8 @@ void led2(int pin) {
   delay(1000);
 }
 
-void connect(const char* ssid, const char* password) {
-  init_OLED(0x3C);
+void connect(const char* ssid, const char* password, uint8_t oled_addr) {
+  init_OLED(oled_addr);
   pinMode(13, OUTPUT);
 
   WiFi.begin(ssid, password);
